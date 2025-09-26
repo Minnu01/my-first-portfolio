@@ -1,4 +1,43 @@
-body{
-    background-color: #2c3e50;
-    color: #ecf0f1;
+/* ------------------- Global Styles ------------------- */
+
+body {
+    font-family: 'Arial', sans-serif; /* A professional, clean font */
+    line-height: 1.6;
+    background-color: #2c3e50; /* Dark blue background */
+    color: #ecf0f1; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* This centers the content and keeps it from stretching too wide */
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px; 
+    overflow: hidden; /* Clear any floats */
+}
+
+/* ------------------- Header/Footer Styles ------------------- */
+
+header {
+    background: #34495e; /* Slightly darker header */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #f1c40f; /* A highlight color */
+}
+
+/* ------------------- Section Styles ------------------- */
+
+section {
+    background: #34495e; /* Match the header for visual consistency */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Soft, modern corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
